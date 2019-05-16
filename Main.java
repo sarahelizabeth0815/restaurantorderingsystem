@@ -8,7 +8,6 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		
 		Queue<Order> ordersQueue = new LinkedList<Order>();
-		// creating a queue called orders
 		
 		System.out.println("Welcome to the ordering system!");
 		
@@ -20,7 +19,6 @@ public class Main {
 			
 			if (input.equals("a")) {
 				Order order = new Order();	
-				// creates object called order1
 				
 				// get entree
 				System.out.print("Enter entree:  ");
@@ -54,9 +52,7 @@ public class Main {
 				
 				} else {
 				Order removedOrder = ordersQueue.remove();
-				// don't need to pass an argument because the queue is already set up
 				System.out.println("Entree: " + removedOrder.getEntree());
-				// removedOrder equals the last order removed so retrieving the info from that order
 				System.out.println("Side: " + removedOrder.getSide());
 				System.out.println("Notes: " + removedOrder.getNotes());
 				} System.out.println();

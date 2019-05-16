@@ -3,8 +3,6 @@ public class Order {
 	private String entree;
 	private String side;
 	private String notes;
-	
-	// since class is private, must create methods to set and get values
 
 	public String getEntree() {
 		return entree;

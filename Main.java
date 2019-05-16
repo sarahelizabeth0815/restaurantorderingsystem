@@ -22,11 +22,8 @@ public class Main {
 				
 				// get entree
 				System.out.print("Enter entree:  ");
-				// printing message
-				String typedInEntree = in.nextLine();
-				// in.nextLine() returns the answer and its stored in the variable typedInEntree 
+				String typedInEntree = in.nextLine(); 
 				order.setEntree(typedInEntree);
-				// calling on the method in the Order class called setEntree; setting its value equal to typeInEntree
 				
 				// get side
 				System.out.print("Enter side:  ");
